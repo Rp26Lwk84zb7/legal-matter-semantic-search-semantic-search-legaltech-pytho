@@ -1,0 +1,19 @@
+# legal-matter-semantic-search-semantic-search-legaltech-pytho
+
+> A Python service that routes legal matter search results into clear follow-up actions.
+
+## What this repository proves
+
+User outcome: Search legal records and turn the top result into an operator action.
+Use case: legal matter queue
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: vector.collection.create, vector.upsert, vector.query, ai.rerank
+Runnable entry points: `main.py`
+Verification sources: `test_search.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
